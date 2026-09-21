@@ -1,11 +1,11 @@
-import DashBoard from "../components/DashBoard";
+import DashBoard from "../components/Dashboard";
 import Sidebar from "../components/Sidebar";
 
 const Layout = () => {
   return (
     <div className="flex flex-row w-[100%] h-100vh gap-3">
       <Sidebar />
-      <Dashboard />
+      <DashBoard />
     </div>
   );
 };
