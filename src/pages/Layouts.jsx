@@ -5,7 +5,7 @@ const Layout = () => {
   return (
     <div className="flex flex-row w-[100%] h-100vh gap-3">
       <Sidebar />
-      <DashBoard />
+      <Dashboard />
     </div>
   );
 };
